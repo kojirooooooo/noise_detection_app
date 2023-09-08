@@ -5,14 +5,14 @@
 #define SoundSensor 33 //INA:33 INB:15
 int SoundValue; //音のアナログ値
 
-const char* ssid = ""; //無線ルーターのssidを入力
-const char* password = ""; //無線ルーターのパスワードを入力
+const char* ssid = "AP01-01"; //無線ルーターのssidを入力
+const char* password = "1qaz2wsx"; //無線ルーターのパスワードを入力
 
 //IFTTT用
 const String endpoint = "https://maker.ifttt.com/trigger/";//定型url
 const String eventName = "noise_detection_app";//IFTTTのEvent Name
 const String conn = "/with/key/";//定型url
-const String Id = "";//自分のIFTTTのYour Key
+const String Id = "dx8-tTZ6ajlQ_U-rQzhWoY4ueWfCTIC91FVrI6qSgn5";//自分のIFTTTのYour Key
 String value ="?value1=";//値 value1=xxxx value2=xxxxx value3=xxxxx
 
 //glide用
@@ -105,7 +105,7 @@ void sendGss(float dB, String roomNum){
 
   WiFiClientSecure sslclient;
 
-  String url = "";  //googlescript web appのurlを入力
+  String url = "https://script.google.com/macros/s/AKfycbwKtqBq5VsVEwFhPl6-FyZ4Ceao0M6W4AQp5o39UwlOCgWKz-kX57n0KmzcXppDnGss/exec";  //googlescript web appのurlを入力
 
   //urlの末尾に測定値を加筆
   url += "?";
