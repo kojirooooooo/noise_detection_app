@@ -12,6 +12,8 @@
 * 運営事業者アプリ: glide
 * コードバージョン管理: Git
 
+## プレゼン資料
+<https://docs.google.com/presentation/d/1AyNlQa36ZjHHoiYTiti5B4iMdlgLCLGS2nZ1aZ11AWI/edit?usp=sharing>
 
 ## 参考・利用ページ一覧
 
